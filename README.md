@@ -20,4 +20,4 @@ Livrables
     Requêtes de création des bases/tables utilisées.
     Version en ligne.
 
-Groupe de 5 avec Simon R, Simon D, Christopher, Marion, Vanessa
+** Groupe de 5 avec Simon R, Simon D, Christopher, Marion, Vanessa **
