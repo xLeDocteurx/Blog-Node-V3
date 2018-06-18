@@ -1,0 +1,11 @@
+<%- include('./parts/head') %>
+    <%- include('./parts/header') %>
+
+
+        <%- include('./parts/toprow/row', {core: core, projects: projects}) %>
+            <!-- tracks/output // {core: core, projects: projects} // SONT OPTIONNELS ??? SUR LES DEUX ??? o_O-->
+            <%- include('./parts/bottomrow/row', {core: core, projects: projects}) %>
+
+                <%- include('./scripts') %>
+
+                    <%- include('./parts/footer') %>
