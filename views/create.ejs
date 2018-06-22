@@ -1,6 +1,11 @@
 <%- include('./parts/head') %>
     <%- include('./parts/header') %>
 
-        <!-- LE CODE ICI -->
+        
+        <form action="/create/post" method="POST">
+        	<input type="text" name="title">
+        	<input type="text" name="content">
+        	<input type="submit" value="Let's go">
+        </form>
 
         <%- include('./parts/footer') %>
