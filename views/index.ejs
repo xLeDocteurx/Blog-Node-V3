@@ -1,16 +1,24 @@
 <%- include('./parts/head') %>
-    <%- include('./parts/header') %>
-        <main class="row">
+<%- include('./parts/header') %>
+<main class="row">
 
-            <div class="col-md-3"></div>
-            <div class="col-md-6">
-            <%- include('./parts/post') %>
-                <%- include('./parts/post') %>
-            </div>
-                    <div class="col-md-3"></div>
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+
+        <ul class="posts">
+          <% for(var i=0; i<posts.length; i++) {%>
+          <li class="post">
+              <span><%= posts[i].title %></span>
+              <span><%= posts[i].content %></span>
+          </li>
+          <% } %>
+      </ul>
+
+  </div>
+  <div class="col-md-3"></div>
 
 
-            <a href="/create"><button>Write new post</button></a>
+  <a href="/create"><button>Write new post</button></a>
 
-        </main>
-        <%- include('./parts/footer') %>
+</main>
+<%- include('./parts/footer') %>
